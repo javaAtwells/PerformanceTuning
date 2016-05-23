@@ -18,8 +18,10 @@ public class DeadLockTest {
 
 }
 
+// Object
 class X {
 
+		
 }
 
 class Thread1 extends Thread {
