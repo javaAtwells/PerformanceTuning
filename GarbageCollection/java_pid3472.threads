@@ -1,0 +1,39 @@
+Thread 0xfd17c410
+
+  locals:
+
+Thread 0xfd17c478
+
+  locals:
+
+Thread 0xfd17c4e0
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:135)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:151)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:209)
+
+  locals:
+    objectId=0xfd17c560, line=1
+    objectId=0xfd17c550, line=1
+    objectId=0xfd17c560, line=2
+    objectId=0xfd17c4e0, line=3
+    objectId=0xfd17c580, line=3
+
+Thread 0xfd17c590
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:503)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:133)
+
+  locals:
+    objectId=0xfd17c5f8, line=1
+    objectId=0xfd17c590, line=2
+    objectId=0xfd17c5f8, line=2
+
+Thread 0xfd186e70
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at com.prasan.gc.GraphTest.main([Ljava/lang/String;)V (GraphTest.java:12)
+
+  locals:
+    objectId=0xfd17c608, line=1
+    objectId=0xfe1b6a58, line=1
+
